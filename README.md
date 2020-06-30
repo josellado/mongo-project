@@ -1,7 +1,7 @@
 
 # GeoSpartial Data Project
 ​
-<img src=http://www.vidiani.com/maps/maps_of_the_world/detailed_satellite_map_of_the_world.jpg
+<img src="http://www.vidiani.com/maps/maps_of_the_world/detailed_satellite_map_of_the_world.jpg">
 
 ​
 
