@@ -28,3 +28,16 @@ def geocode(address):
         "type":"Point",
         "coordinates":[float(data["longt"]),float(data["latt"])]
     }
+
+def geoQueryNear(point,radius=10000):
+    return {
+        "geopoint":{
+            "$near": {
+                "$geometry": point,
+                "$maxDistance": radius,
+                "$minDistance": 0
+            }
+        }
+    }
+
+    
